@@ -1,0 +1,22 @@
+.Navigation {
+  padding: 20px;
+  background: #eee;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  list-style: none;
+
+  a.active {
+    color: #e00;
+  }
+
+  a.about-link {
+    color: #00f;
+  }
+
+  a.playground-link {
+    color: #0c0;
+  }
+}

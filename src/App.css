@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .App-logo {
@@ -35,4 +38,53 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.not-found {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.not-found .container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: -100px;
+}
+
+.not-found .container > div {
+  justify-self: flex-start;
+  margin-left: 50px;
+}
+
+.not-found h1 {
+  font-size: 200px;
+  justify-self: flex-end;
+}
+
+.not-found p {
+  font-weight: 300;
+  font-style: italic;
+}
+
+.not-found .back-link {
+  display: block;
+  padding: 10px 20px;
+  border: 1px solid rgb(0, 102, 255);
+  border-radius: 4px;
+  color: rgb(0, 102, 255);
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.not-found .back-link:hover {
+  background-color: rgba(0, 102, 255, 0.1);
+}
+
+hr {
+  margin: 50px 0;
 }

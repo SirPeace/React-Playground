@@ -1,0 +1,21 @@
+.Card {
+  display: inline-block;
+  max-width: 300px;
+  margin-right: 20px;
+  padding: 20px;
+  background-color: #eee;
+  transition: border, box-shadow 0.3s;
+}
+
+.input {
+}
+
+.input.green {
+  color: green;
+  border-color: green;
+}
+
+.input.red {
+  color: crimson;
+  border-color: crimson;
+}

@@ -1,0 +1,15 @@
+.Playground {
+  padding: 20px;
+
+  .secret {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100vh;
+    height: 100vh;
+    background-image: linear-gradient(#fff 0%, pink);
+    font-size: 100px;
+    letter-spacing: 20px;
+    color: rgb(212, 161, 170);
+  }
+}
